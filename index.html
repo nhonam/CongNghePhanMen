@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout 1</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <div id = "menu_top">
+            <ul>
+                <li> <a href="#" title="Trang chủ " class="active"> Trang chủ</a></li>
+                <li> <a href="#" title="Sơ đồ" >Sơ đồ</a></li>
+                <li> <a href="#" title="Đặt bàn" >Đặt bàn</a></li>
+                <li> <a href="#" title="Trang chủ" >Trang chủ</a></li>
+                <li> <a href="#" title="Trang chủ" >Trang chủ</a></li>
+                <li> <a href="#" title="Trang chủ" >Trang chủ</a></li>
+                
+            </ul> 
+        </div>
+
+        <div id="banner">
+            <img src="img/banner1.png" alt="ảnh">
+        </div>
+
+        <div id="main">
+            
+            <div id="left">
+                <div class="rightofleft">
+                    <div>Tầng 1  <i class="fas fa-check-circle"></i></div>
+                    <div>Tầng 2</div>
+                    <div>Tầng 3</div>
+                </div>
+                <div class ="top_left">
+                    <ul>
+                       <li class="empty_table"> Trống 16/16 bàn</li>
+                       <li> <div class="icon_toptable one"></div> Bàn trống</li>
+                       <li><div class="icon_toptable two"></div> Bàn đang phục vụ</li>
+                       <li><div class="icon_toptable three"></div>  Bàn có khách</li>
+                        
+                    </ul> 
+                </div>
+
+                <table class="table" border="0">
+                    <tr>
+                        <td><div>1</div></td>
+                        <td><div>2</div></td>
+                        <td><div>3</div></td>
+                        <td><div>4</div></td>
+                        <td><div>5</div></td>
+                        <td><div>6</div></td>
+                       
+                    </tr>
+                    <tr>
+                        <td><div>7</div></td>
+                        <td><div>8</div></td>
+                        <td><div>9</div></td>
+                        <td><div>10</div></td>
+                        <td><div>11</div></td>
+                        <td><div>12</div></td>
+                    </tr>
+                    <tr>
+                        <td><div>13</div></td>
+                        <td><div>14</div></td>
+                        <td><div>15</div></td>
+                        <td><div>16</div></td>
+                        <td><div>17</div></td>
+                        <td><div>18</div></td>
+                    </tr>
+                    <tr>
+                        <td><div>19</div></td>
+                        <td><div>20</div></td>
+                        <td><div>21</div></td>
+                        <td><div>22</div></td>
+                        <td><div>23</div></td>
+                        <td><div>24</div></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="right">
+                <h2 style="text-align: center"  >Thông Tin Đặt Bàn</h2>
+                <form action="" method="" style="margin-top: 40px; margin-left: 20px;">
+                    <div>
+                        <label for="username">Họ và tên:</label>
+                        <input style="margin-left: 50px;" type="text" name="Username" id="username"><br>
+                    </div>
+                   
+                    <div>
+                        <label for="sdt">Số điện thoại:</label>
+                        <input style="margin-left: 28px;" type="text" name="" id="sdt"><br>
+                    </div>
+                    
+                    <div>
+                        <label for="money">Tiền cọc:</label>
+                        <input style="margin-left: 60px;" type="text" name="money" id ="money"><br>
+                    </div>
+                   
+                    <div>
+                        <label for="">Ngày:</label>
+                        <input style="margin-left: 80px;" type="date" ><br>
+                    </div>
+
+                    <div>
+                        <label for="">Thời gian:</label>
+                        <input style="margin-left: 50px;" type="time" ><br>
+                    </div>
+                   
+                    <div>
+                        <label for="check">Đã thanh toán</label>
+                        <input style="margin-left: 36px;" type="radio" value="Đã thanh toán" name="check"><br>
+                        <label for="check">Chưa thanh toán</label>
+                        <input style="margin-left: 20px;" type="radio" name="check" value="Chưa thanh toán"><br>
+                    </div>
+
+                    <div>
+                        <label for="">Ghi chú:</label>
+                        <textarea rows="5" cols="30"></textarea><br>
+                    </div>
+                   
+                     
+                    <div id ="getIF">
+                        <input type="submit" value="Đặt Bàn">
+                        <button type="reset" value="Reset">Reset</button>
+                    </div>
+                     
+                </form>
+            </div>
+        </div>
+
+        <div id="footer">HIGHTLAND COFFEE</div>
+    </body>
+</html>
